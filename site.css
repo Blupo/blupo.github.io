@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+body {
+    font-family: "Source Sans Pro";
+    background: linear-gradient(50deg, #000 5%, #00d6d6 5%, #6e05ff 90%, #404040 90%, #404040 95%, #000 95%) no-repeat center center fixed;
+}
+
+.page {
+    width: calc(100% - 200px);
+    margin: 100px auto;
+    background-color: #fff;
+    border-radius: 2px;
+    padding: 10px 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .page {
+        width: calc(100% - 100px);
+        margin: 50px auto;
+    }
+}
+
+.page h2 {
+    margin-bottom: 10px;
+    border-bottom: 4px solid #aaa;
+    max-width: 200px;
+}
+
+.indent {
+    text-indent: -0.5em;
+    padding-left: 0.5em;
+}
